@@ -77,3 +77,6 @@ qnn = [ "ort/qnn" ]
 migraphx = [ "ort/migraphx" ]
 vitis = [ "ort/vitis" ]
 azure = [ "ort/azure" ]
+
+[patch.crates-io]
+esaxx-rs = { path = "libs/esaxx-rs" }
