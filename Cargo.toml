@@ -44,7 +44,7 @@ ort = { version = "=2.0.0-rc.10", default-features = false, optional = true, fea
   "half",
   "std",
 ] }
-tokenizers = { version = "0.21.1" }
+tokenizers = { git = "https://github.com/mii443/tokenizers.git" }
 paste = "1.0.15"
 base64ct = "=1.7.3"
 
@@ -78,5 +78,3 @@ migraphx = [ "ort/migraphx" ]
 vitis = [ "ort/vitis" ]
 azure = [ "ort/azure" ]
 
-[patch.crates-io]
-esaxx-rs = { path = "libs/esaxx-rs" }
